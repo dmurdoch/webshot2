@@ -8,6 +8,18 @@ webshot2
 
 webshot2 currently depends on a number of in-development packages.
 
+This build includes a patch https://github.com/rstudio/webshot2/pull/21, so has been
+set to version number 0.0.0.9000.21.  You can install just
+the patched version, without the version number change,
+using
+
+```R
+remotes::install_github("dmurdoch/webshot2@fixlockup")
+```
+
+Once that patch (or a better one) is merged into the main 
+branch, you could use this code to install:
+
 ```R
 remotes::install_github("rstudio/webshot2")
 ```
